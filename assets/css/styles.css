@@ -57,6 +57,20 @@ a.btn-mode-one:hover {
     margin-top: 2rem;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #bb871f;
+    border-color: #bb871f;
+}
+
+.btn-primary:focus, .btn.focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #F8B127;
+    border-color: #F8B127;
+}
+
 /*******************/
 /*     Topbar      */
 /*******************/
@@ -182,8 +196,6 @@ a.btn-mode-one:hover {
     top: 25% !important;
 }
 
-
-
 .carousel-caption h1 {
     font-size: 3.2rem;
     font-weight: 600;
@@ -216,11 +228,6 @@ a.btn-mode-one:hover {
     padding-bottom: 3rem;
 }
 
-.services .btn-primary {
-    background-color: #F8B127;
-    border-color: #F8B127;
-}
-
 .services .img-fluid {
     max-width: 24%;
     height: auto;
@@ -236,17 +243,6 @@ a.btn-mode-one:hover {
 .services a.btn-mode-one {
     padding: 0.5rem 1.3rem;
 
-}
-
-
-
-.btn-primary:not(:disabled):not(.disabled):active {
-    background-color: #bb871f;
-    border-color: #bb871f;
-}
-
-.btn-primary:focus, .btn.focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
-    box-shadow: none;
 }
 /* end of Services */
 
@@ -291,6 +287,105 @@ a.btn-mode-one:hover {
     color: #F8B127;
 }
 /* end of Contact us */
+
+
+/*****************************************/
+/********      Devis Page     ************/
+/*****************************************/
+
+/***********************/
+/*  Header Background  */
+/***********************/
+.bg-header {
+    background: url("../images/car-bg.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 525px;
+}
+
+.heading-txt {
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.bg-header h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.bg-header h5 {
+    line-height: 2rem;
+}
+
+/* end of Header background */
+
+
+/***********************/
+/*  Devis Calculation  */
+/***********************/
+.cal-sec {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.result-cal {
+    box-shadow: 0px 0px 35px rgb(168 168 168 / 45%);
+    margin: 2rem 2rem;
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+
+.cal-sec form {
+    margin: 2rem 3rem;
+}
+
+.cal-sec form h2 {
+    margin-bottom: 1.5rem ;
+}
+
+.result-cal .panel-group {
+    padding: 1rem 2.3rem;
+}
+
+.result-cal a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.result-cal .panel-default {
+    border-bottom: 1px solid #ccc;
+    padding: 0.6rem 0.5rem;
+}
+
+.result-cal a span {
+    font-size: 30px;
+    float: right;
+}
+
+.dh-value h5 {
+    font-weight: 600;
+}
+
+.row.dh-value {
+    text-align: center;
+    padding: 0 2.5rem;
+}
+.panel-group p span {
+    float: right;
+}
+/* end of Devis Calculation */
+
+
+/*****************************************/
+/********  end of Devis Page  ************/
+/*****************************************/
 
 
 /******************/

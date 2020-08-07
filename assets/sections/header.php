@@ -39,12 +39,12 @@
             <li><i class="fas fa-clock"></i>Horaires d'ouverture: lundi-samedi: 8h30 à 18h30</li>
         </ul>
         <ul>
-            <li><a href="#">à Propos De Nous</a></li>
-            <li><a href="#">Contactez Nous</a></li>
+            <li><a href="about.php">à Propos De Nous</a></li>
+            <li><a href="contact.php">Contactez Nous</a></li>
             <li>
-                <select>
-                    <option value=""><img src="images/france.svg">FR</option>
-                    <option value=""><img src="images/morocco.svg">AR</option>
+                <select class="form-control form-control-sm">
+                    <option value="">FR</option>
+                    <option value="">AR</option>
                 </select>
             </li>
         </ul>
@@ -89,7 +89,7 @@
     
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Morgan Assurance</a>
+        <a class="navbar-brand" href="index.php">Morgan Assurance</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -97,18 +97,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="devis.php">Votre Devis</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Nos services
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Voiture</a>
+                <a class="dropdown-item" href="#">Accedent</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">

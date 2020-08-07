@@ -1,3 +1,4 @@
+<!-- Header -->
 <?php include_once('sections/header.php'); ?>
 
 <!-- Slider -->
@@ -269,4 +270,5 @@
 </div>
 <!-- end of Contact -->
 
+<!-- Footer -->
 <?php include_once('sections/footer.php'); ?>
