@@ -100,6 +100,54 @@ a.btn-mode-one:hover {
 }
 /* end of Topbar */
 
+
+/*******************/
+/*  services page  */
+/*******************/
+.services {
+   margin-top:  50px;
+   padding: 0px;
+}
+.imgs {
+   width: 60%;
+}
+.img-prg{
+    padding: 0px;
+    align-items: center;
+    display: flex;
+    margin: 7%;
+}
+
+
+/* end services page */
+
+
+/*******************/
+/*  transfert and paiement page  */
+/*******************/
+.tran-paie {
+    margin-top:  97px;
+    padding: 0px;
+ }
+ .prgv2 {
+    text-align: center;
+    margin: 0% 10% 5% 10%;
+ }
+ .logoimg {
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+ }
+ .pymlogo {
+    width: 50%; 
+    margin-bottom: 3%;
+    padding: 0px;
+ }
+ 
+ /* end transfert and paiement page */
+
 /***********************/
 /*     Header Area     */
 /***********************/
@@ -382,7 +430,6 @@ a.btn-mode-one:hover {
 }
 /* end of Devis Calculation */
 
-
 /*****************************************/
 /********  end of Devis Page  ************/
 /*****************************************/
@@ -489,6 +536,20 @@ a.btn-mode-one:hover {
     .slide-header {
         display: none;
     }
+
+    /*  services page  */
+.services {
+   
+ }
+ .imgs {
+    width: 70%;
+    margin-right: 0px;
+    padding: 0px;
+ }
+ .prg{
+    padding-left: -50px;
+ }
+ /* end services page */
 }
 
 /* Max-width width 710px */
@@ -511,6 +572,21 @@ a.btn-mode-one:hover {
         margin-bottom: 1.5rem;
     }
     /*  end of Header Area  */
+
+     /*  services page  */
+     .imgs {
+        width: 70%;
+     }
+     .prg{
+      margin-top: 30px;
+     }
+     .img-prg{
+         text-align: center;
+         align-items: center;
+         display: block;
+         margin: 7%;
+     }
+     /* end services page */
 }
 
 
