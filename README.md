@@ -11,4 +11,4 @@ PNG / JPG / SVG
 
 ## LOGO
 
-<img src="assets/images/logo.png" style="max-width: 30%;">
+<img src="assets/images/logo.png" style="width: 100px;">
