@@ -1,10 +1,12 @@
+<!-- Header  -->
 <?php include_once('sections/header.php'); ?>
+
 
 <!-- Header Background -->
     <div class="bg-header">
         <div class="heading-txt">
-            <h1 class="">Votre devis Morgan oTo personnalisé</h1>
-            <h5>Votre devis Morgan oTo personnaliséVous souhaitez avoir plus de garanties? renseignez ce formulaire et obtenez la formule avec un prix adapté à votre besoin</h5>
+            <h1 class="">Votre Devis Morgan auto personnalisé</h1>
+            <h5>Votre devis Morgan auto personnalisée vous souhaitez avoir plus de garanties? renseignez ce formulaire et obtenez la formule avec un prix adapté à votre besoin</h5>
         </div>
     </div>
 <!-- end of Header Background -->
@@ -25,13 +27,6 @@
                             <option>-- Type Carburant --</option>
                             <option value="Diesel">Diesel</option>
                             <option value="Essence">Essence</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <select id="list_yn" class="form-control">
-                            <option>-- Assistance --</option>
-                            <option value="OUI">OUI</option>
-                            <option value="NO">NO</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -85,18 +80,6 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                            Assistance <span>+</span></a>
-                        </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                        <div class="panel-body">Prestation optionnelle disponible 24/24 et 7j/7 , qui permet de fournir une aide rapide aux assurés en cas de difficultés rencontrées ( en cas de panne ou d’accident ) lors des déplacements du véhicule assuré</div>
-                        </div>
-                    </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                        <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
                             Évènement catastrophiques <span>+</span></a>
                         </h4>
@@ -134,4 +117,6 @@
 </div>
 <!-- end of Devis Calculation -->
 
+
+<!-- Footer -->
 <?php include_once('sections/footer.php'); ?>

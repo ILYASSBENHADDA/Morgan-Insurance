@@ -4,21 +4,25 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-col">
-                        <h4>About Morgan</h4>
+                        <h4>Morgan Assurance</h4>
                         <p>Avec Morgan Assurance, Bénéficiez de plusieurs types d'assurances</p>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-md-4">
                     <div class="footer-col middle">
-                        <h4>Important Links</h4>
+                        <h4>Contacts</h4>
                         <ul class="list-unstyled li-space-lg">
                             <li class="media">
                                 <i class="fas fa-square"></i>
-                                <div class="media-body">Our business partners <a class="turquoise" href="#">wafa-assurance</a></div>
+                                <div class="media-body"><a class="turquoise" href="mailto:morganassurance@gmail.com">morganassurance@gmail.com</a></div>
                             </li>
                             <li class="media">
                                 <i class="fas fa-square"></i>
-                                <div class="media-body">Read our <a class="turquoise" href="#">Terms & Conditions</a>, <a class="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
+                                <div class="media-body"><a class="turquoise" href="mailto:+212524647808">+212 524 647 808</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a class="turquoise" href="#">BD BIR ANZARANE HAY HASSANI Imm ERAC, YOUSSOFIA</a></div>
                             </li>
                         </ul>
                     </div>

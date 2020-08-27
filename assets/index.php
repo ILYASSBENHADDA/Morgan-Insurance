@@ -10,17 +10,17 @@
         <h1>Avec Morgan Assurance, Bénéficiez de plusieurs types d'assurances</h1>
         <p></p>
         <div class="btn-div">
-          <a class="btn-mode-one" href="#">Plus d'infos</a>
+          <a class="btn-mode-one" href="services.php">Plus d'infos</a>
         </div>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/slide-img.jpg" class="d-block w-100" alt="...">
+      <img src="images/slide-img-02.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h1>Avec Morgan Assurance, Bénéficiez de plusieurs types d'assurances</h1>
+        <h1>Votre Devis Assurance en quelques Minutes</h1>
         <p></p>
         <div class="btn-div">
-          <a class="btn-mode-one" href="#">Plus d'infos</a>
+          <a class="btn-mode-one" href="devis.php">Calculez Votre Tarif</a>
         </div>
       </div>
     </div>
@@ -262,7 +262,7 @@
       <div class="col-lg-12">
         <p class="text-center p-resize mb-5">Contactez-nous en appuyant sur le bouton ci-dessous et en remplissant le formulaire</p>
         <div class="btn-div">
-          <a class="btn-mode-one" href="#">Plus d'infos</a>
+          <a class="btn-mode-one" href="#">Contactez Nous</a>
         </div>
       </div>
     </div>

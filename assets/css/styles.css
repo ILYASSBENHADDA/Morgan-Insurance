@@ -71,6 +71,11 @@ a.btn-mode-one:hover {
     border-color: #F8B127;
 }
 
+.btn-primary:hover {
+    background-color: #D49A26;
+    border-color: #D49A26;
+}
+
 /*******************/
 /*     Topbar      */
 /*******************/
@@ -225,16 +230,11 @@ a.btn-mode-one:hover {
     color: #f1f1f1;
 }
 
-.btn-outline-success {
-    color: #fff;
-    border-color: #fff;
+.navbar .navbar-nav .nav-link i {
+    margin-right: 10px;
+    font-size: 18px;
 }
 
-.btn-outline-success:hover {
-    background-color: #fff;
-    color: #F8B127;
-    border-color: #fff;
-}
 /* end of Navbar */
 
 /*******************/
@@ -538,18 +538,18 @@ a.btn-mode-one:hover {
     }
 
     /*  services page  */
-.services {
-   
- }
- .imgs {
-    width: 70%;
-    margin-right: 0px;
-    padding: 0px;
- }
- .prg{
-    padding-left: -50px;
- }
- /* end services page */
+    .services {
+    
+    }
+    .imgs {
+        width: 70%;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .prg{
+        padding-left: -50px;
+    }
+    /* end services page */
 }
 
 /* Max-width width 710px */
