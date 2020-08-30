@@ -334,6 +334,21 @@ a.btn-mode-one:hover {
 .contact .fas {
     color: #F8B127;
 }
+.con {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.map {
+    margin: 10%;
+
+}
+.conpa {
+    margin: 0px 200px;
+}
+.btn {
+    background-color: #f8b026;
+    color: #fff;
+}
 /* end of Contact us */
 
 
@@ -538,9 +553,6 @@ a.btn-mode-one:hover {
     }
 
     /*  services page  */
-    .services {
-    
-    }
     .imgs {
         width: 70%;
         margin-right: 0px;
@@ -550,6 +562,9 @@ a.btn-mode-one:hover {
         padding-left: -50px;
     }
     /* end services page */
+    .conpa {
+        margin: 0px;
+    }
 }
 
 /* Max-width width 710px */
