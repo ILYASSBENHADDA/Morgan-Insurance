@@ -65,7 +65,7 @@
     ?>
 <div class="conpa">
             <div class="con titleg col-lg-12">
-                <h2>Contact</h2>
+                <h2><?php echo $lang['contacttipag'] ?></h2>
                 <hr class="line-heading">
             </div>
             <div class="col-lg-12"> 
@@ -73,24 +73,24 @@
                     <form role="form" action ="contact.php" method = "post">
                         <div class="row">
                             <div class="form-group col-lg-4">
-                                <label>Name</label>
+                                <label><?php echo $lang['contactname'] ?></label>
                                 <input type="text" id="fname" name="fname" maxlength="25" class="form-control">
                             </div>
                             <div class="form-group col-lg-4">
-                                <label>Email Address</label>
+                                <label><?php echo $lang['contactemaadr'] ?></label>
                                 <input type="email" id="email" name="email" maxlength="25" class="form-control">
                             </div>
                             <div class="form-group col-lg-4">
-                                <label>Subject</label>
+                                <label><?php echo $lang['contactsub'] ?></label>
                                 <input type="text" id="subject" name="subject" maxlength="25" class="form-control">
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">
-                                <label>Message</label>
+                                <label><?php echo $lang['contactmess'] ?></label>
                                 <textarea class="form-control" id="message" name="message" maxlength="100" rows="6"></textarea>
                             </div>
                             <div class="form-group col-lg-12">
-                                <button type="submit" id="contact" name="contact" class="btn btn-default">Submit</button>
+                                <button type="submit" id="contact" name="contact" class="btn btn-default"><?php echo $lang['contactbbuttsub'] ?></button>
                             </div>
                         </div>
                     </form>

@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-col">
-                        <h4>Morgan Assurance</h4>
-                        <p>Avec Morgan Assurance, Bénéficiez de plusieurs types d'assurances</p>
+                        <h4><?php echo $lang['tittle'] ?></h4>
+                        <p><?php echo $lang['fottitpar'] ?></p>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-md-4">
                     <div class="footer-col middle">
-                        <h4>Contacts</h4>
+                        <h4><?php echo $lang['fotcbut'] ?></h4>
                         <ul class="list-unstyled li-space-lg">
                             <li class="media">
                                 <i class="fas fa-square"></i>
@@ -22,7 +22,7 @@
                             </li>
                             <li class="media">
                                 <i class="fas fa-square"></i>
-                                <div class="media-body"><a class="turquoise" href="#">BD BIR ANZARANE HAY HASSANI Imm ERAC, YOUSSOFIA</a></div>
+                                <div class="media-body"><a class="turquoise" href="#"><?php echo $lang['fotadris'] ?></a></div>
                             </li>
                         </ul>
                     </div>
@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2020 <a href="#">Morgan Assurance</a> - All rights reserved</p>
+                    <p class="p-small">C<?php echo $lang['fotcopr'] ?> <a href="#"><?php echo $lang['fotcoptitle'] ?></a> - <?php echo $lang['fotagr'] ?></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->

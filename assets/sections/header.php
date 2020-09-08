@@ -1,3 +1,6 @@
+<?php
+  include "config.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,20 +28,27 @@
     <!-- Topbar -->
     <section class="topbar-area">
         <ul>
-            <li><i class="fas fa-map-marker-alt"></i>BD BIR ANZARANE HAY HASSANI Imm ERAC</li>
-            <li><i class="fas fa-clock"></i>Horaires d'ouverture: lundi-samedi: 8h30 à 18h30</li>
+            <li><i class="fas fa-map-marker-alt"></i><?php echo $lang['address'] ?></li>
+            <li><i class="fas fa-clock"></i><?php echo $lang['opntim'] ?></li>
         </ul>
         <ul>
-            <li><a href="about.php">À Propos De Nous</a></li>
-            <li><a href="contact.php">Contactez Nous</a></li>
+            <li><a href="about.php"><?php echo $lang['apdn'] ?></a></li>
+            <li><a href="contact.php"><?php echo $lang['cnb'] ?></a></li>
             <li>
-                <select class="form-control form-control-sm">
-                    <option value="">FR</option>
-                    <option value="">AR</option>
+                <select onchange="la(this.value)" class="form-control form-control-sm">
+                <option disabled selected><?php echo $lang['lang'] ?></option>
+                  <option value="?lang=fr">FR</option>
+                  <option value="?lang=ar">AR</option>
                 </select>
             </li>
         </ul>
     </section>
+
+    <script>
+      function la(src) {
+        window.location=src;
+      }
+    </script>
     <!-- end of Topbar -->
 
     <!-- Header Area -->
@@ -53,7 +63,7 @@
                             <table>
                                   <tr>
                                     <th rowspan="2"><i class="fas fa-phone"></i></th>
-                                    <th>Appelez-nous</th>
+                                    <th><?php echo $lang['appn'] ?></th>
                                   </tr>
                                   <tr>
                                     <td>05 24-64-78-08</td>
@@ -64,7 +74,7 @@
                             <table>
                                 <tr>
                                     <th rowspan="2"><i class="fas fa-envelope"></i></th>
-                                    <th>Envoyez nous un Mail</th>
+                                    <th><?php echo $lang['enum'] ?></th>
                                   </tr>
                                   <tr>
                                     <td>contact@morgan.ma</td>
@@ -79,7 +89,7 @@
     
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.php">Morgan Assurance</a>
+        <a class="navbar-brand" href="index.php"><?php echo $lang['tittle'] ?></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -87,26 +97,29 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="devis.php">Votre Devis</a>
+              <a class="nav-link" href="devis.php"><?php echo $lang['vodevbu'] ?></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Nos services
+                <?php echo $lang['nosserbut'] ?>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Voiture</a>
-                <a class="dropdown-item" href="#">Accedent</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="services.php#S1"><?php echo $lang['listtdam'] ?></a>
+                <a class="dropdown-item" href="services.php#S2"><?php echo $lang['listtdi'] ?></a>
+                <a class="dropdown-item" href="services.php#S3"><?php echo $lang['listpdf'] ?></a>
+                <a class="dropdown-item" href="services.php#S4"><?php echo $lang['listpdva'] ?></a>
+                <a class="dropdown-item" href="services.php#S5"><?php echo $lang['listpdet'] ?></a>
+                <a class="dropdown-item" href="services.php#S6"><?php echo $lang['listaebdvc'] ?></a>
+                <a class="dropdown-item" href="services.php#S7"><?php echo $lang['listpeed'] ?></a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.php">Contact</a>
+              <a class="nav-link" href="contact.php"><?php echo $lang['nbcbutt'] ?></a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="far fa-map"></i> Localiser L'Agence </a>
+              <a class="nav-link" href="#"><i class="far fa-map"></i> <?php echo $lang['nbllbutt'] ?> </a>
             </li>
           </ul>
         </div>

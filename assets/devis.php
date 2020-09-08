@@ -5,8 +5,8 @@
 <!-- Header Background -->
     <div class="bg-header">
         <div class="heading-txt">
-            <h1 class="">Votre Devis Morgan auto personnalisé</h1>
-            <h5>Votre devis Morgan auto personnalisée vous souhaitez avoir plus de garanties? renseignez ce formulaire et obtenez la formule avec un prix adapté à votre besoin</h5>
+            <h1 class=""><?php echo $lang['devbititt'] ?></h1>
+            <h5><?php echo $lang['devsmatitt'] ?></h5>
         </div>
     </div>
 <!-- end of Header Background -->
@@ -17,34 +17,34 @@
         <div class="row">
             <div class="col-sm">
                 <form>
-                    <h2>Remplir le formulaire</h2>
+                    <h2><?php echo $lang['devmidtitt'] ?></h2>
                     <!-- Alert Danger -->
                     <style>#danger-notification { display:none;}</style>
                     <div id="danger-notification" class="alert alert-danger" role="alert"></div>
 
                     <div class="form-group">
                         <select id ="list_carburant" class="form-control">
-                            <option>-- Type Carburant --</option>
-                            <option value="Diesel">Diesel</option>
-                            <option value="Essence">Essence</option>
+                            <option><?php echo $lang['devtyca'] ?></option>
+                            <option value="Diesel"><?php echo $lang['devdi'] ?></option>
+                            <option value="Essence"><?php echo $lang['devess'] ?></option>
                         </select>
                     </div>
                     <div class="form-group">
                         <input type="number" class="form-control" id="num_cv" placeholder="Nombre de chevaux">
                     </div>
-                    <button type="button" onclick="myCalc()" class="btn btn-primary">Calculez</button>
+                    <button type="button" onclick="myCalc()" class="btn btn-primary"><?php echo $lang['devcalcbut'] ?></button>
                 </form>
             </div>
             <div class="col-sm">
                 <div class="result-cal">
                     <div class="row dh-value">
                         <div class="col">
-                            <h6>Trif TTC / 1 ans</h6>
-                            <h5 id="price_year">---- Dhs</h5>
+                            <h6><?php echo $lang['devtrttan'] ?></h6>
+                            <h5 id="price_year"><?php echo $lang['devdh'] ?></h5>
                         </div>
                         <div class="col">
-                            <h6>Trif TTC / 6 mois</h6>
-                            <h5 id="price_six_mounth">---- Dhs</h5>
+                            <h6><?php echo $lang['devtrttmo'] ?></h6>
+                            <h5 id="price_six_mounth"><?php echo $lang['devdh'] ?></h5>
                         </div>
                     </div>
                 <div class="panel-group" id="accordion">
@@ -52,13 +52,13 @@
                         <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                            Responsabilité civile <span>+</span></a>
+                            <?php echo $lang['devresciv'] ?> <span>+</span></a>
                         </h4>
                         </div>
                         <div id="collapse1" class="panel-collapse collapse in">
-                        <div class="panel-body">C’est une garantie obligatoire. Elle couvre l’indemnisation des dommages corporels et matériels causés à des tiers par le véhicule assuré.
-                            <p>Dans les limites prévues par le contrat d’assurance Morgan.</p>
-                            <p>Capital assuré: <span>1000000 Dhs</span></p> 
+                        <div class="panel-body"><?php echo $lang['devcugo'] ?>
+                            <p><?php echo $lang['devpadllp'] ?></p>
+                            <p><?php echo $lang['devcapiass'] ?> <span><?php echo $lang['devddhh'] ?></span></p> 
                         </div>
                         </div>
                     </div>
@@ -67,13 +67,13 @@
                         <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                            Défense et recours <span>+</span></a>
+                            <?php echo $lang['devddeerr'] ?> <span>+</span></a>
                         </h4>
                         </div>
                         <div id="collapse2" class="panel-collapse collapse">
-                        <div class="panel-body">Garantie la défense des intérêts des personnes assurées dès lors qu’elles sont poursuivies à la suite d’un événement en relation avec le véhicule assuré. Elle permet aussi l’obtention de la réparation pécuniaire des dommages subis par le véhicule ainsi que les dommages non indemnisés par une autre assurance, subis par le véhicule assuré.</div>
-                        <p>Dans les limites prévues par le contrat d’assurance Morgan.</p>
-                        <p>Capital assuré: <span>10000 Dhs</span></p>
+                        <div class="panel-body"><?php echo $lang['devggldd'] ?></div>
+                        <p><?php echo $lang['devddllp'] ?></p>
+                        <p><?php echo $lang['devcapiass'] ?> <span><?php echo $lang['devmoney'] ?></span></p>
                         </div>
                     </div>
 
@@ -81,14 +81,14 @@
                         <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                            Évènement catastrophiques <span>+</span></a>
+                            <?php echo $lang['devevca'] ?> <span>+</span></a>
                         </h4>
                         </div>
                         <div id="collapse4" class="panel-collapse collapse">
-                        <div class="panel-body">Garantie régie par la loi n° 110-14 instituant le régime de couverture des événements catastrophiques et obligatoire à effet de janvier 2020.
-                            <p>Conséquences d’évènements catastrophiques adossées à la garantie RC automobile:corporel 0 Dhs</p>
-                            <p>Conséquences d’évènements catastrophiques adossées à la garantie RC automobile:materiel Valeur vénale Max. 200 000 DH</p>
-                            <p>Conséquences d’évènements catastrophiques adossées aux garanties dommages au véhicule Valeur vénale Max. 200 000 DH</p>
+                        <div class="panel-body"><?php echo $lang['devggrpln'] ?>
+                            <p><?php echo $lang['devconcon'] ?></p>
+                            <p><?php echo $lang['devdevdev'] ?></p>
+                            <p><?php echo $lang['devcatcat'] ?></p>
                         </div>
                         </div>
                     </div>
@@ -97,15 +97,15 @@
                         <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-                            Protection Passagers <span>+</span></a>
+                            <?php echo $lang['devpropas'] ?> <span>+</span></a>
                         </h4>
                         </div>
                         <div id="collapse5" class="panel-collapse collapse">
-                        <div class="panel-body">Protège toutes les personnes transportées gracieusement à bord de son véhicule, et ce indépendamment de sa responsabilité dans la survenance du sinistre. <br> <br>
-                            <p> Décès               <span>10000 Dhs</span></p>
-                            <p>Incapacité           <span>20000 Dhs</span></p>
-                            <p>Frais hospitalisation<span>5000 Dhs</span></p>
-                            <p>Frais médicaux       <span>1000 Dhs</span></p>
+                        <div class="panel-body"><?php echo $lang['devveci'] ?> <br> <br>
+                            <p> <?php echo $lang['devsécé'] ?>               <span>10000 <?php echo $lang['devdhss'] ?></span></p>
+                            <p><?php echo $lang['devétic'] ?>           <span>20000 <?php echo $lang['devdhss'] ?></span></p>
+                            <p><?php echo $lang['devtion'] ?><span>5000 <?php echo $lang['devdhss'] ?></span></p>
+                            <p><?php echo $lang['devcaux'] ?>       <span>1000 <?php echo $lang['devdhss'] ?></span></p>
                         </div>
                         </div>
                     </div>
@@ -115,8 +115,5 @@
         </div>
     </div>
 </div>
-<!-- end of Devis Calculation -->
 
-
-<!-- Footer -->
 <?php include_once('sections/footer.php'); ?>

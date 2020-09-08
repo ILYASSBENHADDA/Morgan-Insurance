@@ -114,13 +114,18 @@ a.btn-mode-one:hover {
    padding: 0px;
 }
 .imgs {
-   width: 60%;
+   width: 500px;
+   margin: 7%;
+}
+.prg{
+    margin: 7%;
 }
 .img-prg{
     padding: 0px;
     align-items: center;
     display: flex;
     margin: 7%;
+    
 }
 
 
@@ -356,6 +361,19 @@ a.btn-mode-one:hover {
 /********      Devis Page     ************/
 /*****************************************/
 
+
+
+/***********************/
+/*     about page      */
+/***********************/
+.aboutpara{
+    text-align: center;
+    margin-bottom: 100px ;
+    justify-content: center;
+}
+
+/* end of about page */
+
 /***********************/
 /*  Header Background  */
 /***********************/
@@ -543,6 +561,16 @@ a.btn-mode-one:hover {
         margin: 10px 0;
     }
     /* end of Partners */
+
+    /*  services page  */
+    
+     .img-prg{
+         text-align: center;
+         align-items: center;
+         display: block;
+         margin: 7%;
+     }
+     /* end services page */
 }
 
 
