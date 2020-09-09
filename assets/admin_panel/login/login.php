@@ -28,7 +28,7 @@ if(isset($_SESSION['adminlogin'])){
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>ILYASS BENHADDA | Web Developer</title>
+    <title>Connectez-vous au Morgan Panel</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
@@ -43,7 +43,7 @@ if(isset($_SESSION['adminlogin'])){
 <body>
 <!-- Log Form -->
 <div class="log-form">
-    <h1>WELCOME BACK</h1>
+    <h1>Connectez-vous au Morgan Panel</h1>
     <form method="post">
         <div class="form-group">
             <input type="text" class="form-control" id="admin_name" name="admin_name" placeholder="Nom Admin" required>

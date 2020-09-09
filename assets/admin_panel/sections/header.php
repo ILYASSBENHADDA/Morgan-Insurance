@@ -34,7 +34,7 @@ session_start();
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>ILYASS BENHADDA | Web Developer</title>
+    <title>Morgan Panel</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
@@ -48,7 +48,7 @@ session_start();
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark">
     <a href="index.php" class="navbar-brand">Morgan Panel</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar6">
         <span class="navbar-toggler-icon"></span>

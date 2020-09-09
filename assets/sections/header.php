@@ -12,7 +12,7 @@
     <meta name="author" content="">
 
     <!-- Website Title -->
-    <title>Accueil - Morgan Assurance</title>
+    <title>Morgan Assurance</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
