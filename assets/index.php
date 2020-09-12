@@ -86,8 +86,8 @@
         </div>
         <div class="col-12">
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
                 <div class="carousel-inner">
+                    <!-- Three items -->
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-md-4 mb-3">
@@ -100,7 +100,6 @@
                                           <a class="btn-mode-one" href="services.php#S1"><?php echo $lang['homeespbut'] ?></a>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
@@ -115,11 +114,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-
                             <div class="col-md-4 mb-3">
                                 <div class="card">
                                     <img class="img-fluid" alt="100%x280" src="images/heart.svg">
@@ -130,26 +124,14 @@
                                           <a class="btn-mode-one" href="services.php#S3"><?php echo $lang['homeespbut'] ?></a>
                                         </div>
                                     </div>
-
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/helmet.svg">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><?php echo $lang['homepdva'] ?></h4>
-                                        <p class="card-text"><?php echo $lang['homepdvap'] ?></p>
-                                        <div class="btn-div">
-                                          <a class="btn-mode-one" href="services.php#S4"><?php echo $lang['homeespbut'] ?></a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Three items -->
                     <div class="carousel-item">
                         <div class="row">
-
                             <div class="col-md-4 mb-3">
                                 <div class="card">
                                     <img class="img-fluid" alt="100%x280" src="images/taxi.svg">
@@ -160,7 +142,6 @@
                                           <a class="btn-mode-one" href="services.php#S5"><?php echo $lang['homeespbut'] ?></a>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
@@ -189,6 +170,25 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Three items -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="images/helmet.svg">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><?php echo $lang['homepdva'] ?></h4>
+                                        <p class="card-text"><?php echo $lang['homepdvap'] ?></p>
+                                        <div class="btn-div">
+                                          <a class="btn-mode-one" href="services.php#S4"><?php echo $lang['homeespbut'] ?></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>

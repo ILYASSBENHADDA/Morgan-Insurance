@@ -74,20 +74,20 @@
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label><?php echo $lang['contactname'] ?></label>
-                                <input type="text" id="fname" name="fname" maxlength="25" class="form-control">
+                                <input type="text" id="fname" name="fname" maxlength="25" class="form-control" required>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label><?php echo $lang['contactemaadr'] ?></label>
-                                <input type="email" id="email" name="email" maxlength="25" class="form-control">
+                                <input type="email" id="email" name="email" maxlength="25" class="form-control" required>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label><?php echo $lang['contactsub'] ?></label>
-                                <input type="text" id="subject" name="subject" maxlength="25" class="form-control">
+                                <input type="text" id="subject" name="subject" maxlength="25" class="form-control" required>
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">
                                 <label><?php echo $lang['contactmess'] ?></label>
-                                <textarea class="form-control" id="message" name="message" maxlength="100" rows="6"></textarea>
+                                <textarea class="form-control" id="message" name="message" maxlength="100" rows="6" required></textarea>
                             </div>
                             <div class="form-group col-lg-12">
                                 <button type="submit" id="contact" name="contact" class="btn btn-default"><?php echo $lang['contactbbuttsub'] ?></button>
@@ -96,9 +96,9 @@
                     </form>
                 </div>
             </div>
-            <div class="map">
+            <div class="map pt-4">
               <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d843.6387264582185!2d-8.537100170782821!3d32.24314899882102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE0JzM1LjMiTiA4wrAzMicxMS42Ilc!5e0!3m2!1sen!2sma!4v1598693098266!5m2!1sen!2sma" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.332030794072!2d-8.53846197764333!3d32.24372400544804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaefd861e388d1d%3A0x471e9398665fe148!2sMORGAN%20ASSURANCE!5e0!3m2!1sen!2s!4v1599839328440!5m2!1sen!2s" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
               </div>
             </div>
 </div>

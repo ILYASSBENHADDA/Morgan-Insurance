@@ -29,7 +29,7 @@
                 </div> <!-- end of col -->
                 <div class="col-md-4">
                     <div class="footer-col last">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.385269669671!2d-8.524001885431712!3d32.24771478113511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaefdf7a5abd215%3A0xf838facafb432e7b!2sYoucode!5e0!3m2!1sen!2s!4v1596331384965!5m2!1sen!2s" width="100%" height="200px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.332030794072!2d-8.53846197764333!3d32.24372400544804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaefd861e388d1d%3A0x471e9398665fe148!2sMORGAN%20ASSURANCE!5e0!3m2!1sen!2s!4v1599839328440!5m2!1sen!2s" width="100%" height="200px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div> 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

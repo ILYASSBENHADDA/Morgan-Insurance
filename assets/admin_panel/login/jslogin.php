@@ -19,9 +19,13 @@ if (isset($_POST['login'])) {
                 $_SESSION['adminlogin'] = $row;
                 header("location: ../");
             }
+            else {
+                echo "<script>alert('PASSWORD INCORRECT!')</script>";
+            }
         }
 
-    else {
-        echo "<script>alert('ADMIN NAME OR PASSWORD INCORRECT!')</script>";
-    }
+        else {
+            echo "<script>alert('ADMIN NAME INCORRECT!')</script>";
+        }
+    
 }

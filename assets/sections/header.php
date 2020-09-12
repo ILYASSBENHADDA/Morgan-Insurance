@@ -1,6 +1,6 @@
-<?php
-  include "config.php"
-?>
+<!-- For Changing Languages -->
+<?php include "config.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="">
+    <meta name="description" content="Morgan Assurance est une enterprise filiale de WAFA Assurance, Il travaille pour fournir aux clients de nombreuses offres d'assurance (automobile, vélo moteur, responsabilité civile des chantiers, accident travail des chantiers, Taxi, visa d'assurance...)">
     <meta name="author" content="">
 
     <!-- Website Title -->
@@ -56,7 +56,7 @@
         <div class="container">
                 <div class="row">
                     <ul>
-                        <li><a href="#"><img class="logo-header" src="images/logo.png" alt=""></a></li>
+                        <li><a href="index.php"><img class="logo-header" src="images/logo.png" alt=""></a></li>
                     </ul>
                     <ul>
                         <li>
@@ -119,7 +119,7 @@
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="far fa-map"></i> <?php echo $lang['nbllbutt'] ?> </a>
+              <a class="nav-link" href="https://goo.gl/maps/tyAeG9W4CUSHbvA49" target="_black"><i class="far fa-map"></i> <?php echo $lang['nbllbutt'] ?> </a>
             </li>
           </ul>
         </div>

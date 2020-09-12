@@ -30,7 +30,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <input type="number" class="form-control" id="num_cv" placeholder="Nombre de chevaux">
+                        <input type="number" class="form-control" id="num_cv" placeholder="<?php echo $lang['numcv'] ?>">
                     </div>
                     <button type="button" onclick="myCalc()" class="btn btn-primary"><?php echo $lang['devcalcbut'] ?></button>
                 </form>
@@ -41,10 +41,6 @@
                         <div class="col">
                             <h6><?php echo $lang['devtrttan'] ?></h6>
                             <h5 id="price_year"><?php echo $lang['devdh'] ?></h5>
-                        </div>
-                        <div class="col">
-                            <h6><?php echo $lang['devtrttmo'] ?></h6>
-                            <h5 id="price_six_mounth"><?php echo $lang['devdh'] ?></h5>
                         </div>
                     </div>
                 <div class="panel-group" id="accordion">

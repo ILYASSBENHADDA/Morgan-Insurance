@@ -1,8 +1,6 @@
-
 /* Navbar Scripts */
 	// JS to collapse the navbar on scroll
-window.onscroll = function() {scrollFunction()};
-    navbar = document.getElementById("navbar");
+navbar = document.getElementById("navbar");
 function scrollFunction() {
   if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
     navbar.classList.add('nav-collapse');
@@ -10,6 +8,7 @@ function scrollFunction() {
     navbar.classList.remove('nav-collapse');
   }
 }
+window.onscroll = function() {scrollFunction()};
 /* end of Navbar */
 
 
