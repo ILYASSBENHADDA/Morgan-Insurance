@@ -4,17 +4,8 @@
 <!-- Slider -->
 <div id="carouselExampleControls" class="carousel slide slide-header" data-ride="carousel">
   <div class="carousel-inner">
+    <!-- First slider -->
     <div class="carousel-item active">
-      <img src="images/slide-img.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1><?php echo $lang['hometitle'] ?></h1>
-        <p></p>
-        <div class="btn-div">
-          <a class="btn-mode-one" href="services.php"><?php echo $lang['homepi'] ?></a>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
       <img src="images/slide-img-02.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1><?php echo $lang['hometvda'] ?></h1>
@@ -24,13 +15,14 @@
         </div>
       </div>
     </div>
+    <!-- Second slider -->
     <div class="carousel-item">
       <img src="images/slide-img.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1><?php echo $lang['hometitle'] ?></h1>
         <p></p>
         <div class="btn-div">
-          <a class="btn-mode-one" href="#"><?php echo $lang['homepi'] ?></a>
+          <a class="btn-mode-one" href="services.php"><?php echo $lang['homepi'] ?></a>
         </div>
       </div>
     </div>

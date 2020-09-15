@@ -41,6 +41,7 @@
                   <option value="?lang=ar">AR</option>
                 </select>
             </li>
+            <li><a href="admin_panel/index.php"><i class="far fa-user"></i></a></li>
         </ul>
     </section>
 

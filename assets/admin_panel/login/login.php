@@ -35,10 +35,9 @@ if(isset($_SESSION['adminlogin'])){
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/fontawesome-all.css" rel="stylesheet">
 	<link href="../assets/css/styles.css" rel="stylesheet">
-	<style>.form-control {border-radius: 0;}.form-control:focus {box-shadow: none;border-color: #ced4da;border-bottom: 1.5px solid #212529;}</style>
     
     <!-- Favicon  -->
-    <link rel="icon" href="../../assets/images/black-logo.png">
+    <link rel="icon" href="../../images/favicon.svg">
 </head>
 <body>
 <!-- Log Form -->
