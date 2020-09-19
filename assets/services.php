@@ -9,7 +9,7 @@
   </div>
   <div class="img-prg">
     <div class="imgall">
-      <img class="imgs" src="images/img1.jpg">
+      <img class="imgs" src="images/Asset 7-8.png">
     </div>
     <div class="prg">
       <p><?php echo $lang['servpone'] ?></p>
@@ -25,7 +25,7 @@
   </div>
   <div class="img-prg">
     <div class="imgall">
-      <img class="imgs" src="images/img1.jpg">
+      <img class="imgs" src="images/Asset 7-8.png">
     </div>
     <div class="prg">
       <p><?php echo $lang['servptwo'] ?></p>
@@ -41,7 +41,7 @@
   </div>
   <div class="img-prg">
     <div class="imgall">
-      <img class="imgs" src="images/img1.jpg">
+      <img class="imgs" src="images/Asset 6-8.png">
     </div>
     <div class="prg">
       <p><?php echo $lang['servptree'] ?></p>
@@ -57,7 +57,7 @@
   </div>
   <div class="img-prg">
     <div class="imgall">
-      <img class="imgs" src="images/img1.jpg">
+      <img class="imgs" src="images/Asset 11-8.png">
     </div>
     <div class="prg">
       <p><?php echo $lang['servpfor'] ?></p>
@@ -75,7 +75,7 @@
   </div>
   <div class="img-prg">
     <div class="imgall">
-      <img class="imgs" src="images/img1.jpg">
+      <img class="imgs" src="images/Asset 8-8.png">
     </div>
     <div class="prg">
       <h2><?php echo $lang['servpfive'] ?></h2>
@@ -94,7 +94,7 @@
   </div>
   <div class="img-prg">
     <div class="imgall">
-      <img class="imgs" src="images/img1.jpg">
+      <img class="imgs" src="images/Asset 12-8.png">
     </div>
     <div class="prg">
       <p><?php echo $lang['servpsix'] ?></p>
@@ -109,7 +109,7 @@
   </div>
   <div class="img-prg">
     <div class="imgall">
-      <img class="imgs" src="images/img1.jpg">
+      <img class="imgs" src="images/Asset 9-8.png">
     </div>
     <div class="prg">
       <p><?php echo $lang['servpsiven'] ?></p>

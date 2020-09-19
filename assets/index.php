@@ -84,7 +84,7 @@
                         <div class="row">
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/heart.svg">
+                                    <img class="img-fluid" alt="100%x280" src="images/Asset 7-8.png">
                                     <div class="card-body">
                                         <h4 class="card-title"><?php echo $lang['hometdam'] ?></h4>
                                         <p class="card-text"><?php echo $lang['hometdamp'] ?></p>
@@ -96,7 +96,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/car.svg">
+                                    <img class="img-fluid" alt="100%x280" src="images/Asset 7-8.png">
                                     <div class="card-body">
                                         <h4 class="card-title"><?php echo $lang['hometdi'] ?></h4>
                                         <p class="card-text"><?php echo $lang['hometdip'] ?></p>
@@ -108,7 +108,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/heart.svg">
+                                    <img class="img-fluid" alt="100%x280" src="images/Asset 6-8.png">
                                     <div class="card-body">
                                         <h4 class="card-title"><?php echo $lang['homepdf'] ?></h4>
                                         <p class="card-text"><?php echo $lang['homepdfp'] ?></p>
@@ -126,7 +126,7 @@
                         <div class="row">
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/taxi.svg">
+                                    <img class="img-fluid" alt="100%x280" src="images/Asset 8-8.png">
                                     <div class="card-body">
                                         <h4 class="card-title"><?php echo $lang['homepdet'] ?></h4>
                                         <p class="card-text"><?php echo $lang['homepdetp'] ?></p>
@@ -138,7 +138,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/motorcycle.svg">
+                                    <img class="img-fluid" alt="100%x280" src="images/Asset 12-8.png">
                                     <div class="card-body">
                                         <h4 class="card-title"><?php echo $lang['homeadbdvc'] ?></h4>
                                         <p class="card-text"><?php echo $lang['homeadbdvc'] ?></p>
@@ -150,7 +150,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/taxi.svg">
+                                    <img class="img-fluid" alt="100%x280" src="images/Asset 9-8.png">
                                     <div class="card-body">
                                         <h4 class="card-title"><?php echo $lang['homepeedesds'] ?></h4>
                                         <p class="card-text"><?php echo $lang['homepeedesdsp'] ?></p>
@@ -168,7 +168,7 @@
                         <div class="row">
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img class="img-fluid" alt="100%x280" src="images/helmet.svg">
+                                    <img class="img-fluid" alt="100%x280" src="images/Asset 11-8.png">
                                     <div class="card-body">
                                         <h4 class="card-title"><?php echo $lang['homepdva'] ?></h4>
                                         <p class="card-text"><?php echo $lang['homepdvap'] ?></p>
